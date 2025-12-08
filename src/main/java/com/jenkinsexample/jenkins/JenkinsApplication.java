@@ -19,7 +19,7 @@ public class JenkinsApplication {
 
 	@GetMapping("/")
 	public Mono<String> helloWorld(){
-		return Mono.justOrEmpty("Hello World1111");
+		return Mono.justOrEmpty("Hello World");
 	}
 
 }
